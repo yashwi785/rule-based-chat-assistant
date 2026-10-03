@@ -8,9 +8,9 @@ A lightweight, interactive command-line chat assistant built with Python. The bo
 ## 📌 Table of Contents
 - [Overview](#-overview)
 - [Key Features](#-key-features)
-- [How It Works](#-how-it-works)
 - [Sample Execution](#-sample-execution)
 - [Future Improvements](#-future-improvements)
+- [How It Works](#-how-it-works)
 
 ---
 
@@ -33,6 +33,38 @@ This project demonstrates fundamental Python programming concepts working togeth
 * **Zero Dependencies:** Built entirely with Python's standard library.
 
 ---
+
+## 💻 Sample Execution
+
+Enter your name: Alex
+Good Evening! Alex
+Hello! I am your mini AI chatbot.
+ How can I assist you today?
+Type 'bye' to exit from bot
+
+please ask you question: hi there!
+ bot_reply:  Hi there! What can I do for you?
+
+please ask you question: can you tell me a joke?
+ bot_reply:  Why don't scientists trust atoms? Because they make up everything!
+
+please ask you question: what's the weather today?
+ bot_reply:  I am not sure about the weather, but you can check a weather app or website for the latest updates.
+
+please ask you question: bye
+ bot_reply:  Goodbye! Have a great day!
+Goodbye! Have a great day!
+
+
+
+## 🔮 Future Improvements
+
+
+Add fuzzy matching (difflib) to tolerate typos in user input.
+
+Separate response data into an external intents.json file.
+
+Save chat history with timestamps to an external log file.
 
 ## ⚙️ How It Works
 
@@ -57,29 +89,3 @@ This project demonstrates fundamental Python programming concepts working togeth
 │      │
 │      └──► Contains "bye"?          ──► Print farewell & break loop
 └──────┘
-💻 Sample Execution
-Enter your name: Alex
-Good Evening! Alex
-Hello! I am your mini AI chatbot.
- How can I assist you today?
-Type 'bye' to exit from bot
-
-please ask you question: hi there!
- bot_reply:  Hi there! What can I do for you?
-
-please ask you question: can you tell me a joke?
- bot_reply:  Why don't scientists trust atoms? Because they make up everything!
-
-please ask you question: what's the weather today?
- bot_reply:  I am not sure about the weather, but you can check a weather app or website for the latest updates.
-
-please ask you question: bye
- bot_reply:  Goodbye! Have a great day!
-Goodbye! Have a great day!
-
-🔮 Future Improvements
-Add fuzzy matching (difflib) to tolerate typos in user input.
-
-Separate response data into an external intents.json file.
-
-Save chat history with timestamps to an external log file.
